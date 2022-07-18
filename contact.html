@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Contact | Kacper Bojakowski">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Contact | Kacper Bojakowski</title>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+   
+    <figure class="logo">
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+        <span>Kacper Bojakowski</span>
+    </figure>
+
+    <nav class="menu">
+        <a href=index.html target="_self">Home</a>
+        <a href=resume.html target="_self">Resume</a>
+        <a href=portfolio.html target="_self">Portfolio</a>
+        <a class="active" href=contact.html target="_self">Contact</a>
+    </nav>
+
+    <section>
+        <h1>Contact</h1>
+        <p>
+            Here by my contact!
+        </p>
+        <div class="jsquestionbox" id="replace">
+            <div class="jstextholder">
+                <p>
+                    Do you like this website?
+                </p>
+            </div>
+            <div class="jsbuttonholder">
+                <button type="button" class="jsbuttonone" onclick="Remove(); CreateYes()">Yes</button>
+                <button type="button" class="jsbuttontwo" onclick="Remove(); CreateNo()">No</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; <span id="CurrentYear"></span> Kacper Bojakowski</p>
+    </footer>
+
+</body>
+
+</html>
